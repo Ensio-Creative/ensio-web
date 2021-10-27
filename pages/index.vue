@@ -82,9 +82,9 @@
             />
           </div>
         </div>
-        <div class="text-center py-5 capitalize text-xl">
+        <!-- <div class="text-center py-5 capitalize text-xl">
           <nuxt-link to="/work">&#8594; view all works</nuxt-link>
-        </div>
+        </div> -->
       </div>
       <div class="lg:px-20 p-5">
         <div class="lg:text-4xl text-2xl font-extrabold lg:px-5">
