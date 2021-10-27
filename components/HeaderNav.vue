@@ -5,20 +5,20 @@
         <img class="logo" src="/ensio-creative-logo.png" alt="" />
       </div>
       <div class="flex nav">
-        <nuxt-link to="/">
+        <nuxt-link to="/" exact-active-class="active">
           <div class="px-5">Home</div>
         </nuxt-link>
-        <nuxt-link to="/work">
+        <nuxt-link to="/work" exact-active-class="active">
           <div class="px-5">Work</div>
         </nuxt-link>
-        <nuxt-link to="/about">
+        <nuxt-link to="/about" exact-active-class="active">
           <div class="px-5">About Us</div>
         </nuxt-link>
-        <nuxt-link to="/contact">
+        <nuxt-link to="/contact" exact-active-class="active">
           <div class="px-5">Contact</div>
         </nuxt-link>
       </div>
-      <div class="toggler" @click="openNav">
+      <div class="toggler pt-2" @click="openNav">
         <svg
           width="24"
           height="24"
@@ -60,6 +60,9 @@
 </template>
 <script>
 export default {
+  onMounted() {
+    document.getElementById("myNav").style.height = "0%";
+  },
   methods: {
     openNav() {
       document.getElementById("myNav").style.height = "100%";
@@ -73,8 +76,8 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .navbar {
-  width: 100%;
-  position: fixed;
+  /* width: 100%;
+  position: fixed; */
   font-family: "Poppins";
 }
 /* The Overlay (background) */
@@ -101,7 +104,7 @@ export default {
   top: 25%; /* 25% from the top */
   width: 100%; /* 100% width */
   text-align: center; /* Centered text/links */
-  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  margin-top: 5px; /* 30px top margin to avoid conflict with the close button on smaller screens */
 }
 
 /* The navigation links inside the overlay */
@@ -136,6 +139,10 @@ export default {
 }
 .nav {
   display: flex;
+  font-weight: 700;
+}
+.active {
+  border-bottom: 2px solid #ffdd14;
 }
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 @media screen and (max-height: 450px) {
