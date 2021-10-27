@@ -9,7 +9,7 @@
           <div class="px-5">Home</div>
         </nuxt-link>
         <nuxt-link to="/work" exact-active-class="active">
-          <div class="px-5">Work</div>
+          <div class="px-5">Our Work</div>
         </nuxt-link>
         <nuxt-link to="/about" exact-active-class="active">
           <div class="px-5">About Us</div>
@@ -45,7 +45,7 @@
           <div class="px-5">Home</div>
         </nuxt-link>
         <nuxt-link to="/work">
-          <div class="px-5">Work</div>
+          <div class="px-5">Our Work</div>
         </nuxt-link>
         <nuxt-link to="/about">
           <div class="px-5">About Us</div>

@@ -2,7 +2,7 @@
   <div>
     <HeaderNav />
     <div class="py-10 work">
-      <div
+      <!-- <div
         data-aos="fade-up"
         data-aos-offset="300"
         data-aos-easing="ease-in-out"
@@ -17,8 +17,49 @@
         "
       >
         our projects are great experience
-      </div>
+      </div> -->
       <div class="lg:px-20 lg:p-10 lg:flex">
+        <div class="container lg:w-3/6 m-5">
+          <img
+            src="https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=812&q=80"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">Bluemeen Partners</div>
+            <div class="p-10">
+              <img class="ml-auto mt-40" src="/arrow.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="container lg:w-3/6 m-5">
+          <img
+            src="https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=812&q=80"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">Bluemeen Partners</div>
+            <div class="p-10">
+              <img class="ml-auto mt-40" src="/arrow.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="container lg:w-3/6 m-5">
+          <img
+            src="https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=812&q=80"
+            alt="Avatar"
+            class="image"
+          />
+          <div class="overlay">
+            <div class="text">Bluemeen Partners</div>
+            <div class="p-10">
+              <img class="ml-auto mt-40" src="/arrow.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lg:px-20 pb-10 lg:flex">
         <div class="container lg:w-3/6 m-5">
           <img
             src="https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=812&q=80"
@@ -77,6 +118,7 @@ export default {};
   height: 40vh;
   width: 100%;
 } */
+
 .container {
   position: relative;
   /* width: 50%; */
@@ -121,9 +163,8 @@ export default {};
   img {
     height: auto;
   }
-  .container{
+  .container {
     width: 88%;
   }
-  
 }
 </style>
