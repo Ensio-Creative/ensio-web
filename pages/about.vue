@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderNav />
-    <div>
+    <div class="about">
       <div
         data-aos="fade-up"
         data-aos-offset="300"
@@ -16,6 +16,7 @@
           lg:w-2/4
           text-center
           py-32
+          font-black
         "
       >
         we create unique experiences for lasting impressions
@@ -72,6 +73,10 @@ export default {
 </script>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.about {
+  font-family: "Poppins";
+}
 .image1 img {
   width: 100%;
   height: 80vh;

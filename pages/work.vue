@@ -1,12 +1,20 @@
 <template>
   <div>
     <HeaderNav />
-    <div class="py-10">
+    <div class="py-10 work">
       <div
         data-aos="fade-up"
         data-aos-offset="300"
         data-aos-easing="ease-in-out"
-        class="heading lg:w-2/4 lg:text-5xl text-3xl lg:px-20 px-5 capitalize"
+        class="
+          heading
+          lg:w-2/4 lg:text-5xl
+          font-black
+          text-3xl
+          lg:px-20
+          px-5
+          capitalize
+        "
       >
         our projects are great experience
       </div>
@@ -69,6 +77,10 @@
 export default {};
 </script>
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.work {
+  font-family: "Poppins";
+}
 img {
   height: 40vh;
   width: 100%;

@@ -22,7 +22,14 @@
           We're <span>passionate</span> about solving problems
         </div>
         <div
-          class="lg:w-2/4 w-3/4 text-center mx-auto py-3 lg:text-base text-xs"
+          class="
+            lg:w-2/4
+            text-gray-600 text-center
+            mx-auto
+            p-5
+            lg:text-base
+            text-sm
+          "
         >
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
           blanditiis magni voluptatem ex laborum explicabo culpa, dolor eligendi
@@ -38,7 +45,7 @@
         />
       </div>
       <div class="lg:px-20 p-5">
-        <div class="text-4xl font-extrabold"><span>What</span> We Do</div>
+        <div class="lg:text-4xl text-2xl font-extrabold"><span>What</span> We Do</div>
         <div class="lg:flex justify-between py-5">
           <div class="lg:w-screen w-auto lg:m-5">
             <div>
@@ -48,8 +55,8 @@
               />
             </div>
             <div class="p-3">
-              <div class="font-semibold text-2xl py-5">Branding</div>
-              <div class="text-gray-600">
+              <div class="font-semibold lg:text-2xl text-xl py-5">Branding</div>
+              <div class="text-gray-600 lg:text-base text-sm">
                 We bring brands to life through creative solutions that conveys
                 the right feeling and creates a positive first impressions that
                 are both effective and innovative – setting visual, verbal and
@@ -65,8 +72,10 @@
               />
             </div>
             <div class="p-3">
-              <div class="font-semibold text-2xl py-5">Web/App Design</div>
-              <div class="text-gray-600">
+              <div class="font-semibold lg:text-2xl text-xl py-5">
+                Web/App Design
+              </div>
+              <div class="text-gray-600 lg:text-base text-sm">
                 We create simple, thoughtful, intuitive and user-centric
                 interfaces that mediates the space between web users and the
                 information they need.
@@ -81,10 +90,10 @@
               />
             </div>
             <div class="p-3">
-              <div class="font-semibold text-2xl py-5">
+              <div class="font-semibold lg:text-2xl text-xl py-5">
                 Communications Design
               </div>
-              <div class="text-gray-600">
+              <div class="text-gray-600 lg:text-base text-sm">
                 Through in-depth research and collaborative process, we work
                 with businesses and brands to unearth their true purpose, find
                 their voice, understand their customers, and define their goals.
@@ -94,7 +103,16 @@
         </div>
       </div>
       <div class="lg:px-20 py-10">
-        <div class="capitalize text-4xl py-3 px:lg-0 px-5">
+        <div
+          class="
+            capitalize
+            font-semibold
+            lg:text-4xl
+            text-2xl
+            py-3
+            px:lg-0 px-5
+          "
+        >
           <span>our work </span> - featured
         </div>
         <div class="lg:flex justify-between py-5">

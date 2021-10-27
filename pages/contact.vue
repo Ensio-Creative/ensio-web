@@ -8,14 +8,14 @@
         data-aos-offset="300"
         data-aos-easing="ease-in-out"
       >
-        <div class="lg:text-5xl text-3xl lg:w-2/5 text-center lg:mx-auto mx-5">
+        <div class="lg:text-5xl text-3xl font-black lg:w-2/5 text-center lg:mx-auto mx-5">
           Let's talk about your project
         </div>
         <div class="lg:w-2/5 mx-auto text-center py-3 text-lg">
           we are currently working remotely
         </div>
       </div>
-      <div class="lg:flex justify-between lg:px-40 p-20">
+      <div class="lg:flex justify-between lg:px-40 p-10">
         <div class="p-8">
           <div class="text-2xl font-medium">Call Us</div>
           <div class="py-3">+2347 03964 4259</div>
