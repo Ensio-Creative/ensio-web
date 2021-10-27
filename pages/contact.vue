@@ -39,8 +39,9 @@
           <div class="py-3">talents@ensiocreative.com</div>
         </div>
       </div>
-      <div class="lg:px-20 lg:p-10 lg:flex">
-        <div class="container lg:w-3/6 m-5">
+      <div class="text-center lg:text-4xl font-semibold py-8">Our Work</div>
+      <div class="lg:flex">
+        <div class="container lg:w-3/6">
           <img
             src="https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=812&q=80"
             alt="Avatar"
@@ -53,7 +54,7 @@
             </div>
           </div>
         </div>
-        <div class="container lg:w-3/6 m-5">
+        <div class="container lg:w-3/6">
           <img
             src="https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=812&q=80"
             alt="Avatar"
@@ -66,7 +67,7 @@
             </div>
           </div>
         </div>
-        <div class="container lg:w-3/6 m-5">
+        <div class="container lg:w-3/6">
           <img
             src="https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=812&q=80"
             alt="Avatar"
@@ -80,8 +81,8 @@
           </div>
         </div>
       </div>
-      <div class="lg:px-20 pb-10 lg:flex">
-        <div class="container lg:w-3/6 m-5">
+      <div class="lg:flex">
+        <div class="container lg:w-3/6">
           <img
             src="https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=812&q=80"
             alt="Avatar"
@@ -94,7 +95,7 @@
             </div>
           </div>
         </div>
-        <div class="container lg:w-3/6 m-5">
+        <div class="container lg:w-3/6">
           <img
             src="https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=812&q=80"
             alt="Avatar"
@@ -107,7 +108,7 @@
             </div>
           </div>
         </div>
-        <div class="container lg:w-3/6 m-5">
+        <div class="container lg:w-3/6">
           <img
             src="https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=812&q=80"
             alt="Avatar"
@@ -128,6 +129,11 @@
 <script>
 import aosMixin from "~/mixins/aos";
 export default {
+  head() {
+    return {
+      title: "Contact - Ensio Creative",
+    };
+  },
   name: "PageIndex",
   mixins: [aosMixin],
 };

@@ -105,9 +105,7 @@
         </div>
       </div>
       <div class="lg:px-20 py-10">
-        <div
-          class="capitalize font-semibold lg:text-4xl text-2xl px:lg-0 px-5"
-        >
+        <div class="capitalize font-semibold lg:text-4xl text-2xl px:lg-0 px-5">
           <span>our work </span> - featured
         </div>
         <div class="lg:flex justify-between py-5">
@@ -133,6 +131,11 @@
 <script>
 import aosMixin from "~/mixins/aos";
 export default {
+  head() {
+    return {
+      title: "Home - Ensio Creative",
+    };
+  },
   name: "PageIndex",
   mixins: [aosMixin],
 };

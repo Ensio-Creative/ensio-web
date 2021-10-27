@@ -67,6 +67,11 @@
 <script>
 import aosMixin from "~/mixins/aos";
 export default {
+    head() {
+    return {
+      title: "About Us - Ensio Creative",
+    };
+  },
   name: "PageIndex",
   mixins: [aosMixin],
 };
