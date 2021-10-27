@@ -1,7 +1,7 @@
 <template>
   <div>
-    <HeaderNav />
     <div class="hero">
+      <HeaderNav />
       <div
         class="lg:py-32 py-24"
         data-aos="fade-up"
@@ -38,11 +38,53 @@
           modi, maiores beatae nisi praesentium.
         </div>
       </div>
-      <div class="image my-20">
-        <img
-          src="https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=853&q=80"
-          alt=""
-        />
+      <div class="lg:px-20 py-10">
+        <!-- <div class="capitalize font-semibold lg:text-4xl text-2xl px:lg-0 px-5">
+          <span>our work </span> - featured
+        </div> -->
+        <div class="lg:flex justify-between">
+          <div class="m-5">
+            <img
+              src="https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=853&q=80"
+              alt=""
+            />
+          </div>
+          <div class="m-5">
+            <img
+              src="https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=853&q=80"
+              alt=""
+            />
+          </div>
+          <div class="m-5">
+            <img
+              src="https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=853&q=80"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="lg:flex justify-between">
+          <div class="m-5">
+            <img
+              src="https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=853&q=80"
+              alt=""
+            />
+          </div>
+          <div class="m-5">
+            <img
+              src="https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=853&q=80"
+              alt=""
+            />
+          </div>
+          <div class="m-5">
+            <img
+              src="https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=853&q=80"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="text-center capitalize text-xl">
+          <nuxt-link to="/work">&#8594; view all works</nuxt-link>
+        </div>
       </div>
       <div class="lg:px-20 p-5">
         <div class="lg:text-4xl text-2xl font-extrabold lg:px-5">
@@ -50,14 +92,10 @@
         </div>
         <div class="lg:flex justify-between py-5">
           <div class="lg:w-screen w-auto lg:m-5">
-            <div>
-              <img
-                src="https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=853&q=80"
-                alt=""
-              />
-            </div>
             <div class="p-3">
-              <div class="font-medium lg:text-2xl text-xl py-5">Branding</div>
+              <div class="font-extrabold lg:text-2xl text-xl py-8">
+                Branding
+              </div>
               <div class="text-gray-600 lg:text-base text-sm">
                 We bring brands to life through creative solutions that conveys
                 the right feeling and creates a positive first impressions that
@@ -67,14 +105,8 @@
             </div>
           </div>
           <div class="lg:w-screen w-auto lg:m-5">
-            <div>
-              <img
-                src="https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=853&q=80"
-                alt=""
-              />
-            </div>
             <div class="p-3">
-              <div class="font-medium lg:text-2xl text-xl py-5">
+              <div class="font-extrabold lg:text-2xl text-xl py-8">
                 Web/App Design
               </div>
               <div class="text-gray-600 lg:text-base text-sm">
@@ -85,14 +117,8 @@
             </div>
           </div>
           <div class="lg:w-screen w-auto lg:m-5">
-            <div>
-              <img
-                src="https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=853&q=80"
-                alt=""
-              />
-            </div>
             <div class="p-3">
-              <div class="font-medium lg:text-2xl text-xl py-5">
+              <div class="font-extrabold lg:text-2xl text-xl py-8">
                 Communications Design
               </div>
               <div class="text-gray-600 lg:text-base text-sm">
@@ -104,23 +130,18 @@
           </div>
         </div>
       </div>
-      <div class="lg:px-20 py-10">
-        <div class="capitalize font-semibold lg:text-4xl text-2xl px:lg-0 px-5">
-          <span>our work </span> - featured
+      <div class="lg:flex">
+        <div class="lg:text-3xl bg-black text-white w-screen font-medium text-xl lg:p-20 p-14 text-center">
+          <div class="font-extrabold">Want to see more?</div>
+          <nuxt-link to="/work"
+            ><div class="lg:text-xl yellow">View all works</div></nuxt-link
+          >
         </div>
-        <div class="lg:flex justify-between py-5">
-          <div class="m-5">
-            <img
-              src="https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=853&q=80"
-              alt=""
-            />
-          </div>
-          <div class="m-5">
-            <img
-              src="https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=853&q=80"
-              alt=""
-            />
-          </div>
+        <div class="lg:text-3xl w-screen bg-yellow text-xl lg:p-20 p-14 text-center">
+          <div class="font-extrabold">Have a Project?</div>
+          <nuxt-link to="/contact"
+            ><div class="lg:text-xl">Get in touch</div></nuxt-link
+          >
         </div>
       </div>
     </div>
@@ -142,6 +163,12 @@ export default {
 </script>
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap");
+.yellow {
+  color: #ffdd14;
+}
+.bg-yellow {
+  background-color: #ffdd14;
+}
 .hero {
   font-family: "Poppins";
 }
