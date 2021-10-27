@@ -38,24 +38,24 @@
           modi, maiores beatae nisi praesentium.
         </div>
       </div>
-      <div class="lg:px-20 py-10">
+      <div class="">
         <!-- <div class="capitalize font-semibold lg:text-4xl text-2xl px:lg-0 px-5">
           <span>our work </span> - featured
         </div> -->
         <div class="lg:flex justify-between">
-          <div class="m-5">
+          <div class="">
             <img
               src="https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=853&q=80"
               alt=""
             />
           </div>
-          <div class="m-5">
+          <div class="">
             <img
               src="https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=853&q=80"
               alt=""
             />
           </div>
-          <div class="m-5">
+          <div class="">
             <img
               src="https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=853&q=80"
               alt=""
@@ -63,26 +63,26 @@
           </div>
         </div>
         <div class="lg:flex justify-between">
-          <div class="m-5">
+          <div class="">
             <img
               src="https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=853&q=80"
               alt=""
             />
           </div>
-          <div class="m-5">
+          <div class="">
             <img
               src="https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=853&q=80"
               alt=""
             />
           </div>
-          <div class="m-5">
+          <div class="">
             <img
               src="https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=853&q=80"
               alt=""
             />
           </div>
         </div>
-        <div class="text-center capitalize text-xl">
+        <div class="text-center py-5 capitalize text-xl">
           <nuxt-link to="/work">&#8594; view all works</nuxt-link>
         </div>
       </div>
