@@ -171,7 +171,7 @@ import aosMixin from "~/mixins/aos";
 export default {
   head() {
     return {
-      title: "Home - Ensio Creative",
+      title: "Ensio Creative - Brand Identity | Web Development | Communications Design",
     };
   },
   name: "PageIndex",

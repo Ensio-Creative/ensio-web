@@ -18,7 +18,7 @@
       >
         our projects are great experience
       </div> -->
-      <div class="lg:px-20 lg:p-10 lg:flex">
+      <div class="lg:flex lg:px-3">
         <div class="container lg:w-3/6 m-5">
           <img
             src="https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=812&q=80"
@@ -59,7 +59,7 @@
           </div>
         </div>
       </div>
-      <div class="lg:px-20 pb-10 lg:flex">
+      <div class="lg:flex lg:px-3 pb-5">
         <div class="container lg:w-3/6 m-5">
           <img
             src="https://images.unsplash.com/photo-1593642532871-8b12e02d091c?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=812&q=80"
@@ -109,7 +109,7 @@
 export default {
   head() {
     return {
-      title: "Our Works - Ensio Creative",
+      title: "Work - Ensio Creative",
     };
   },
 };
