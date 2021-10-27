@@ -131,13 +131,13 @@
         </div>
       </div>
       <div class="lg:flex">
-        <div class="lg:text-5xl more text-white w-screen font-medium text-xl lg:p-20 p-14">
+        <div class="lg:text-5xl more text-white w-screen font-medium text-xl lg:p-20 p-14 lg:py-32">
           <div class="text-2xl">Want to see more?</div>
           <nuxt-link to="/work"
             ><div class=" yellow font-extrabold py-3">View all works</div></nuxt-link
           >
         </div>
-        <div class="lg:text-5xl w-screen bg-yellow text-xl lg:p-20 p-14 ">
+        <div class="lg:text-5xl w-screen bg-yellow text-xl lg:p-20 p-14 lg:py-32">
           <div class="text-2xl">Have a Project?</div>
           <nuxt-link to="/contact"
             ><div class="font-extrabold py-3">Get in touch</div></nuxt-link

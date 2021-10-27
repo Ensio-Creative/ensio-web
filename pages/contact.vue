@@ -16,7 +16,7 @@
             lg:w-2/5
             text-center
             lg:mx-auto
-            mx-5
+            mx-5  
           "
         >
           Let's talk about your project
