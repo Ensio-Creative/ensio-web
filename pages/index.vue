@@ -45,7 +45,9 @@
         />
       </div>
       <div class="lg:px-20 p-5">
-        <div class="lg:text-4xl text-2xl font-extrabold"><span>What</span> We Do</div>
+        <div class="lg:text-4xl text-2xl font-extrabold lg:px-5">
+          <span>What</span> We Do
+        </div>
         <div class="lg:flex justify-between py-5">
           <div class="lg:w-screen w-auto lg:m-5">
             <div>
@@ -55,7 +57,7 @@
               />
             </div>
             <div class="p-3">
-              <div class="font-semibold lg:text-2xl text-xl py-5">Branding</div>
+              <div class="font-medium lg:text-2xl text-xl py-5">Branding</div>
               <div class="text-gray-600 lg:text-base text-sm">
                 We bring brands to life through creative solutions that conveys
                 the right feeling and creates a positive first impressions that
@@ -72,7 +74,7 @@
               />
             </div>
             <div class="p-3">
-              <div class="font-semibold lg:text-2xl text-xl py-5">
+              <div class="font-medium lg:text-2xl text-xl py-5">
                 Web/App Design
               </div>
               <div class="text-gray-600 lg:text-base text-sm">
@@ -90,7 +92,7 @@
               />
             </div>
             <div class="p-3">
-              <div class="font-semibold lg:text-2xl text-xl py-5">
+              <div class="font-medium lg:text-2xl text-xl py-5">
                 Communications Design
               </div>
               <div class="text-gray-600 lg:text-base text-sm">
@@ -104,14 +106,7 @@
       </div>
       <div class="lg:px-20 py-10">
         <div
-          class="
-            capitalize
-            font-semibold
-            lg:text-4xl
-            text-2xl
-            py-3
-            px:lg-0 px-5
-          "
+          class="capitalize font-semibold lg:text-4xl text-2xl px:lg-0 px-5"
         >
           <span>our work </span> - featured
         </div>
@@ -143,8 +138,7 @@ export default {
 };
 </script>
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap");
 .hero {
   font-family: "Poppins";
 }

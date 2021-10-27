@@ -38,7 +38,8 @@
   </div>
 </template>
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap");
+
 
 .footer {
   background: #000;
