@@ -21,7 +21,7 @@
         >
           Let's talk about your project
         </div>
-        <div class="lg:w-2/5 mx-auto text-center py-3 text-lg">
+        <div class="lg:w-2/5 mx-auto text-center font-thin py-3 text-lg">
           we are currently working remotely
         </div>
       </div>
@@ -139,7 +139,7 @@ export default {
 };
 </script>
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap");
 
 .contact {
   font-family: "Poppins";

@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <div class="footer text-sm font-thin">
     <div class="lg:px-20 p-8 lg:flex justify-between">
       <div class="py-4">
         <img src="/footer-logo.png" alt="" />
@@ -31,14 +31,14 @@
         <div class="py-1">Linkedin</div>
       </div>
     </div>
-    <hr>
+    <!-- <hr> -->
     <div class="lg:px-20 p-6">
       © 2021 Ensio Creative
     </div>
   </div>
 </template>
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap");
 
 
 .footer {

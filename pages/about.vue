@@ -29,7 +29,7 @@
       </div>
       <div class="lg:px-20 p-5">
         <div class="capitalize text-3xl">We are ensio creative</div>
-        <div class="lg:text-xl text-sm lg:w-2/4">
+        <div class="lg:text-xl text-sm lg:w-2/4 font-thin">
           A Team of designers, developers, strategists and creators dedicated to
           building wonderful things
         </div>
@@ -78,7 +78,7 @@ export default {
 </script>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap");
 
 .about {
   font-family: "Poppins";

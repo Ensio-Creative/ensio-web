@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar">
+  <div class="navbar font-thin">
     <div class="flex justify-between p-5 lg:px-20">
       <div>
         <img class="logo" src="/ensio-creative-logo.png" alt="" />
@@ -74,7 +74,7 @@ export default {
 };
 </script>
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap");
 
 .navbar {
   /* width: 100%;

@@ -29,6 +29,7 @@
             p-5
             lg:text-base
             text-sm
+            font-thin
           "
         >
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
@@ -86,9 +87,9 @@
           <nuxt-link to="/work">&#8594; view all works</nuxt-link>
         </div> -->
       </div>
-      <div class="lg:px-20 p-5">
+      <div class="lg:px-20 p-5 py-16">
         <div class="lg:text-4xl text-2xl font-extrabold lg:px-5">
-          <span>What</span> We Do
+          Our Expertise
         </div>
         <div class="lg:flex justify-between py-5">
           <div class="lg:w-screen w-auto lg:m-5">
@@ -96,7 +97,7 @@
               <div class="font-extrabold lg:text-2xl text-xl py-8">
                 Branding
               </div>
-              <div class="text-gray-600 lg:text-base text-sm">
+              <div class="text-gray-600 lg:text-base text-sm font-thin">
                 We bring brands to life through creative solutions that conveys
                 the right feeling and creates a positive first impressions that
                 are both effective and innovative – setting visual, verbal and
@@ -109,7 +110,7 @@
               <div class="font-extrabold lg:text-2xl text-xl py-8">
                 Web/App Design
               </div>
-              <div class="text-gray-600 lg:text-base text-sm">
+              <div class="text-gray-600 lg:text-base text-sm font-thin">
                 We create simple, thoughtful, intuitive and user-centric
                 interfaces that mediates the space between web users and the
                 information they need.
@@ -121,7 +122,7 @@
               <div class="font-extrabold lg:text-2xl text-xl py-8">
                 Communications Design
               </div>
-              <div class="text-gray-600 lg:text-base text-sm">
+              <div class="text-gray-600 lg:text-base text-sm font-thin">
                 Through in-depth research and collaborative process, we work
                 with businesses and brands to unearth their true purpose, find
                 their voice, understand their customers, and define their goals.
@@ -131,16 +132,32 @@
         </div>
       </div>
       <div class="lg:flex">
-        <div class="lg:text-5xl more text-white w-screen font-medium text-xl lg:p-20 p-14 lg:py-32">
+        <div
+          class="
+            text-5xl
+            more
+            text-white
+            w-screen
+            font-medium
+            text-xl
+            lg:p-20
+            p-14
+            lg:py-32
+          "
+        >
           <div class="text-2xl">Want to see more?</div>
           <nuxt-link to="/work"
-            ><div class=" yellow font-extrabold py-3">View all works</div></nuxt-link
+            ><div class="yellow font-extrabold py-3 leading-normal">
+              View all works
+            </div></nuxt-link
           >
         </div>
-        <div class="lg:text-5xl w-screen bg-yellow text-xl lg:p-20 p-14 lg:py-32">
+        <div
+          class="text-5xl w-screen bg-yellow text-xl lg:p-20 p-14 lg:py-32"
+        >
           <div class="text-2xl">Have a Project?</div>
           <nuxt-link to="/contact"
-            ><div class="font-extrabold py-3">Get in touch</div></nuxt-link
+            ><div class="font-extrabold py-3 leading-normal">Get in touch</div></nuxt-link
           >
         </div>
       </div>
@@ -162,12 +179,12 @@ export default {
 };
 </script>
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap");
 .yellow {
   color: #ffdd14;
 }
-.more{
-  background-color:  #252529;
+.more {
+  background-color: #252529;
 }
 .bg-yellow {
   background-color: #ffdd14;
